@@ -1,0 +1,99 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+}
+
+#semlist {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+ 
+#contatos {
+  margin-left: 1ch;
+  margin-right: 1ch;
+}
+
+#slide3 {
+  filter: grayscale(0.7);
+}
+
+#slide1 {
+  top: 50%;
+}
+
+#semlista {
+  list-style: none;
+  display: flex;
+  padding: 1ch;
+  justify-content: center;
+}
+
+#colordoida {
+  background-image: linear-gradient(rgba(28, 28, 109, 0.644), rgb(207, 206, 206));
+}
+
+#colordoida2 {
+  background-image: linear-gradient(rgb(207, 206, 206),rgba(28, 28, 109, 0.644) );
+}
+
+#fundoquemsomos {
+  background-image: url(/img/school.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+}
+#tamanhop {
+  background-color:rgba(0, 0, 0, 0.377);
+  border-radius:20px ;
+  padding: 2ch;
+}
+
+#tamanhop p {
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+  #tamanhop p {
+    font-size: 1.2rem;
+    color: aliceblue;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #tamanhop p {
+    font-size: 1rem;
+    color: aliceblue;
+  }
+}
+
+#imagesloucas img {
+  margin: 2ch;
+}
+
+#imagensdoidas img {
+  height: 320px;
+  width: 410px;
+  margin: 1ch;
+}
+
+#backgrounddoido {
+  background-image:url(https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #imagensdoidas img {
+    height: 160px;
+    width: 205px;
+    margin: 1ch;
+  }
+}
