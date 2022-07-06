@@ -114,27 +114,13 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  
   #oloko {
     width: 300px;
-  }
-
-  #opa {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 390px) {
-
   #oloko {
-    width: 200px;
-  }
-  
-  #opa {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 260px;
   }
 }
