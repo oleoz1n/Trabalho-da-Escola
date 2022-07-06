@@ -95,3 +95,46 @@ footer {
     margin: 1ch;
   }
 }
+
+.input-bonito {
+  border-radius:8px;
+  width: 583px;
+  height: 43px;
+  padding-left: 1ch;
+  border: 1px solid #000000;
+}
+
+.input-bonito:hover {
+  background: #ffffff;
+    border: 1px solid blue;
+}
+
+#oloko {
+  width: 583px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  #oloko {
+    width: 300px;
+  }
+
+  #opa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  #oloko {
+    width: 200px;
+  }
+  
+  #opa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
