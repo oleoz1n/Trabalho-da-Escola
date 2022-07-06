@@ -44,11 +44,12 @@ footer {
 }
 
 #fundoquemsomos {
-  background-image: url(/img/school.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 80vh;
+  min-height: 100vh;
 }
+
 #tamanhop {
   background-color:rgba(0, 0, 0, 0.377);
   border-radius:20px ;
@@ -60,18 +61,15 @@ footer {
   color: aliceblue;
 }
 
-@media screen and (max-width: 768px) {
-  #tamanhop p {
-    font-size: 1.2rem;
-    color: aliceblue;
-  }
+#tamanhopp {
+  background-color:rgba(0, 0, 0, 0.377);
+  border-radius:20px ;
+  padding: 2ch;
 }
 
-@media screen and (max-width: 450px) {
-  #tamanhop p {
-    font-size: 1rem;
-    color: aliceblue;
-  }
+#tamanhopp p {
+  font-size: 1.2rem;
+  color: aliceblue;
 }
 
 #imagesloucas img {
