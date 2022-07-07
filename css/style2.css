@@ -18,7 +18,7 @@
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 80px;
     left: 0;
     top: 0;
     width: 100%;
@@ -33,7 +33,7 @@
     margin: auto;
     padding: 0;
     width: 90%;
-    max-width: 1200px;
+    max-width: 1000px;
   }
   
 
@@ -101,9 +101,13 @@
   
   img.demo {
     opacity: 0.6;
-    height: 100px;
-    width: 133px;
-    padding-left:2px ;
+    height: 80px;
+    width: 110px;
+    padding-left:2px;
+  }
+
+  .imageskk {
+    padding-left: 3px;
   }
   
   .active,
